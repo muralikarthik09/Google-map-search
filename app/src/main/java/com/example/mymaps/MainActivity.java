@@ -19,7 +19,7 @@ import java.net.URISyntaxException;
 
 public class MainActivity extends AppCompatActivity {
     private BrightcoveExoPlayerVideoView brightcoveVideoView;
-    private static final String VIDEO_ID = "6369961038112";
+    private static final String VIDEO_ID = "XXXXX";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Account and policy keys
         String BRIGHTCOVE_ACCOUNT_ID = "XXXXXX";
-        String BRIGHTCOVE_POLICY_KEY = "XXXX"
+        String BRIGHTCOVE_POLICY_KEY = "XXXX";
         EventEmitter eventEmitter = brightcoveVideoView.getEventEmitter();
         Catalog catalog = new Catalog.Builder(eventEmitter, BRIGHTCOVE_ACCOUNT_ID)
                 .setPolicy(BRIGHTCOVE_POLICY_KEY)
