@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MyMaps</string>
     <string name="search_for_a_area_street_name_or_pincode">Search for a area, Street name or Pincode</string>
-    <string name="map_api_key">AIzaSyCssBlgbisMPbKCohNoIIgycQFpJKe0_oM</string>
+    <string name="map_api_key">XXXXXX</string>
     <string name="confirm_the_store_location">Confirm the Store Location</string>
     <string name="change"> <u>Change</u></string>
     <!-- TODO: Remove or change this placeholder text -->

@@ -29,9 +29,8 @@ public class MainActivity extends AppCompatActivity {
         brightcoveVideoView = findViewById(R.id.brightcove_video_view);
 
         // Account and policy keys
-        String BRIGHTCOVE_ACCOUNT_ID = "4744899836001";
-        String BRIGHTCOVE_POLICY_KEY = "BCpkADawqM19VpQr3q33W4MMj0xAZ3rykWSCMgHaICS-V5P4wcC7N1f4oAjkrjS4zhaj-zZ6Fb_gJFUx7s_AXZZutX_bF3yKiohmjFoO0L7-pZBcch9YQjfN-01DqXRc-4yeIEeBf9AMUaDP";
-
+        String BRIGHTCOVE_ACCOUNT_ID = "XXXXXX";
+        String BRIGHTCOVE_POLICY_KEY = "XXXX"
         EventEmitter eventEmitter = brightcoveVideoView.getEventEmitter();
         Catalog catalog = new Catalog.Builder(eventEmitter, BRIGHTCOVE_ACCOUNT_ID)
                 .setPolicy(BRIGHTCOVE_POLICY_KEY)
